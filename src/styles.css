@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
+html, body { height: 100%; }
+body { font-family: "Poetsen One", sans-serif; }
+.container{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family:"Poetsen One", sans-serif;}
+
+

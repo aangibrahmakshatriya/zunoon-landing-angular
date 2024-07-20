@@ -1,0 +1,551 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .header{
+    width: 100%;
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1573164574572-cb89e39749b4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8b2ZmaWNlJTIwbWVldGluZ3xlbnwwfHwwfHx8MA%3D%3D');
+  }
+  .overlay{
+    background-color: rgba(0, 0, 0, 0.508);
+    width: 100%;
+    height: 100vh;
+  }
+  .nav h1{
+    font-size: 43px;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  .nav{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+    color: white;
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+  }
+  nav ul li{
+    margin: 0 10px;
+  }
+  nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+  nav ul li a:hoover{
+    cursor: pointer;
+    border-bottom: 2px solid white;
+  }
+  nav .menu-btn span{
+    color: white;
+    cursor: pointer;
+    display: none;
+  }
+  #click{
+    display: none;
+  }
+  .info{
+    padding-top: 10%;
+    padding-left: 5%;
+  }
+  .info h1{
+    color: white;
+    font-family: "Poetsen One", sans-serif;
+    font-size: 5rem;
+    padding-top: 35px;
+  }
+  .img{
+    display: flex;
+    margin-top: 30px;
+  }
+  .img .i1{
+    height:45px;
+    width: 110px;
+    margin-top: 15px;
+  }
+  .img .i2{
+    height:80px;
+    width: 100px;
+  }
+  .wrapper1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 60px;
+
+  }
+  .wrapper1 h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: rgb(255, 132, 0);
+    text-decoration: underline;
+  }
+  .wrapper1 h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(255, 132, 0);
+  }
+  .wrapperi1 p{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 1rem;
+    margin-top: 35px;
+    color: navy;
+  }
+  .wrapperi2 p{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 1rem;
+    margin-top: 15px;
+    color: navy;
+  }
+  .btn{
+    padding: 3px 15px 3px 15px;
+    margin-left: 45%;
+    margin-top: 40px;
+    background-color: rgb(255, 132, 0);
+    font-size: 1.5rem;
+  }
+  .wrapper2{
+    margin-top: 35vh;
+    background-color: white;
+    height: 60vh;
+    width: 100%;
+  }
+  .w_o{
+    background-image: url("https://media.istockphoto.com/id/1273381718/photo/business-and-finance-concept-looking-up-at-modern-high-ride-buildings-in-financial-district.jpg?s=612x612&w=0&k=20&c=QdEVCfl5M1fdizKY1iwt6FiDw7EE2YQBOhynmMX9G8Y=" );
+    width: 100%;
+    height: 150%;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 50vh;
+  }
+  .o{
+    background-color: rgba(0, 0, 0, 0.466);
+    width: 100%;
+    height: 225%;
+    padding-bottom: 50vh;
+  }
+  .o h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+    padding-top: 40vh;
+    text-align: center;
+    font-family: "Poetsen One", sans-serif;
+  }
+  .im1{
+    margin-top: -900px;
+    margin-left: 25%;
+    border-radius: 5px;
+    width: 50%;
+  }
+  .info3{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    margin-top:40px;
+    margin-left: 15%;
+  }
+  .info4{
+    display: block;
+  }
+  .info4 .img1{
+    width: 25%;
+    margin-left: 10px;
+  }
+  .info4_1 h1{
+    color: white;
+    padding-top:10px;
+    margin-right: 100%;
+    font-size: 4rem;
+    font-weight: 500;
+  }
+  .info4_1 h3{
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 30px;
+  }
+  .wrapper4{
+    padding-top: 40vh;
+  }
+  .wrapper4 h1{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: rgb(255, 132, 0);
+    text-align: center;
+  }
+  .wrapper4 h4{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 1rem;
+    margin-top: 15px;
+    color: navy;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .wrapper5{
+    display: flex;
+    justify-content: space-around;
+  }
+  .card{
+    width: 280px;
+    height: 350px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+  }
+  .card img{
+    height: 15vh;
+    width: 15vh;
+    margin-left: 80px;
+  }
+  .card h1{
+    font-size: 1.5rem;
+  }
+  .footer{
+    margin-top: 40px;
+  }
+  .footer_1{
+    background-image: url('https://media.istockphoto.com/id/1361035509/photo/the-girls-write-with-fountain-pens-on-sheets-of-paper-concept-for-college-exam-filling-out.jpg?s=612x612&w=0&k=20&c=6af3K0yMbzhYK-CdMzPyswnybizEXcsYGjlC5gpsg_I=');
+    height: 40vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .f_o{
+    background-color: rgba(0, 0, 0, 0.675);
+    height: 40vh;
+    width: 100%;
+  }
+  .f_o h1{
+    color: white;
+    padding-left: 10%;
+    padding-top: 2%;
+    font-size: 43px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  .f_i{
+    display: flex;
+  }
+  .f_i .fi1{
+    height:09vh;
+    width: 20vh;
+    margin-left:38%;
+    margin-top: 35px;
+  }
+  .f_i .fi2{
+    height:20vh;
+    width: 20vh;
+  }
+  .f_o h3{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+  }
+  @media(max-width:749px){
+    nav .menu-btn span{
+      display: block;
+    }
+    #click:checked~ .menu-btn span:before{
+      content: "\e5cd";
+    }
+    nav ul{
+      position: fixed;
+      top: 80px;
+      left: -100%;
+      background-color: #1111116e;
+      height: 50vh;
+      width: 100%;
+      display: block;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+    #click:checked ~ ul{
+      left: 0%;
+    }
+    nav ul li{
+      margin: 40px 0;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    .info{
+      padding-top: 17%;
+      padding-left: 5%;
+    }
+    .info h1{
+      color: white;
+      font-family: "Poetsen One", sans-serif;
+      font-size: 3rem;
+      padding-top: 35px;
+    }
+    .wrapper1{
+      display: block;
+      justify-content: space-around;
+      margin-top: 50px;
+    }
+    .w_o{
+      height: 200vh;
+    }
+    .o{
+      height: 133.5%;
+    }
+    .o h1{
+      padding-top: 30vh;
+    }
+    .wrapper2{
+      margin-top: 25vh;
+      background-color: white;
+      height: 60vh;
+      width: 100%;
+    }
+    .info3{
+      display: block;
+    }
+    .info4_1 h1{
+      color: white;
+      padding-top:2px;
+      margin-right: 100%;
+      font-size:3rem;
+    }
+    .wrapper4{
+      padding-top: 145vh;
+    }
+    .wrapper5{
+      display: block;
+      justify-content: space-around;
+    }
+    .f_i{
+      display: flex;
+    }
+    .f_i .fi1{
+      height:09vh;
+      width: 20vh;
+      margin-left: 30px;
+    }
+  }
+  @media(max-width:743px){
+    .wrapper4{
+      padding-top:120vh;
+    }
+  }
+  @media(max-width:1160px){
+    .wrapper1{
+      display: block;
+      justify-content: space-around;
+      margin-top: 50px;
+    }
+    .btn{
+      padding: 3px 15px 3px 15px;
+      margin-left: 35%;
+      margin-top: 40px;
+      background-color: rgb(255, 132, 0);
+      font-size: 1.5rem;
+    }
+    .wrapper5{
+      display: block;
+      justify-content: space-around;
+      margin-left: 30%
+    }
+  }
+
+  @media(max-width:960px){
+    .o h1{
+      padding-top: 30vh;
+    }
+    .info4_1 h1{
+      color: white;
+      padding-top:2px;
+      margin-right: 100%;
+      font-size:3rem;
+    }
+    .wrapper5{
+      display: block;
+      justify-content: space-around;
+    }
+    .f_i .fi1{
+      height:09vh;
+      width: 20vh;
+      margin-left:30%;
+    }
+  }
+  @media(max-width:743px){
+    .w_o{
+      height: 175vh;
+    }
+    .o{
+      height: 140%;
+    }
+  }
+  @media(max-width:660px){
+    .o h1{
+      padding-top: 25vh;
+    }
+    .info4_1 h1{
+      color: white;
+      padding-top:2px;
+      margin-right: 100%;
+      font-size:3rem;
+    }
+    .w_o{
+      height: 165vh;
+    }
+    .o{
+      height: 143.5%;
+    }
+    .wrapper4{
+      padding-top:110vh;
+    }
+    .wrapper5{
+      margin-left: 20%;
+    }
+  }
+  @media(max-width:560px){
+    .o h1{
+      padding-top: 20vh;
+    }
+    .info4_1 h1{
+      color: white;
+      padding-top:2px;
+      margin-right: 100%;
+      font-size:3rem;
+    }
+    .w_o{
+      height: 145vh;
+    }
+    .o{
+      height: 153%;
+    }
+    .wrapper4{
+      padding-top:95vh;
+    }
+    .wrapper5{
+      margin-right: 15%;
+    }
+    .f_i .fi1{
+      height:09vh;
+      width: 20vh;
+      margin-left: 25px;
+    }
+  }
+
+  @media(max-width:450px){
+    .nav h1{
+      font-size: 35px;
+      color: white;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+    .im1{
+      display: none;
+    }
+    .wrapper2{
+      margin-top: 10vh;
+      background-color: white;
+      height: 60vh;
+      width: 100%;
+    }
+    .o h1{
+      color: white;
+      font-size: 3rem;
+      font-weight: 500;
+      padding-top: 10px;
+      text-align: center;
+      font-family: "Poetsen One", sans-serif;
+    }
+    .img .i1{
+      height:45px;
+      width: 70px;
+      margin-top: 15px;
+    }
+    .img .i2{
+      height:80px;
+      width: 70px;
+    }
+    .w_o{
+      height: 125vh;
+    }
+    .o{
+      height: 167%;
+    }
+    .info h1{
+      color: white;
+      font-family: "Poetsen One", sans-serif;
+      font-size: 3rem;
+      padding-top: 35px;
+    }
+    .wrapper4{
+      padding-top:70vh;
+    }
+    .card{
+      width: 250px;
+      height: 350px;
+      background-color: #f0f0f0;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+      margin: 20px;
+    }
+    .wrapper5{
+      margin-left: 10%;
+    }
+  }
+  @media(max-width:290px){
+    .card{
+      width: 210px;
+      height: 350px;
+      background-color: #f0f0f0;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+      margin: 20px;
+    }
+    .wrapper5{
+      margin-left: 0%;
+    }
+    .f_i .fi1{
+      height:05vh;
+      width: 10vh;
+      margin-left: 25px;
+    }
+    .f_i .fi2{
+      height:10vh;
+      width:10vh;
+  }
+}
+  @media(max-width:330px)
+  {
+    .wrapper5{
+      margin-left: 0%;
+    }
+
+  }
+  @media(max-width:360px){
+    .f_i .fi1{
+      height:05vh;
+      width: 12vh;
+      margin-left: 25px;
+      margin-top: 45px;
+          }
+    .f_i .fi2{
+      height:12vh;
+      width:12vh;
+      margin-top: 18px;
+  }
+  }
